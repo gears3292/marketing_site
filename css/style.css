@@ -22,6 +22,7 @@ header a {
     color: #fff;
     background-color: lightgray;
     background-image: url("images/topbanner.jpg");
+    height: 42em;
 }
 
 #top-banner-container {
@@ -79,8 +80,8 @@ nav ul {
 }
 
 #sections {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 2em;
+    margin-bottom: 20em;
     padding: 6% 0 6% 0;
     overflow: auto;
     text-align: center;
