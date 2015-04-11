@@ -4,20 +4,30 @@ html, body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
+
 a {
     color: maroon;
     text-decoration: none;
 }
 
-/* NAV */
+/* HEADER */
 header {
-    background-color: #efefef;
     border-bottom: 1px solid rgba(50, 50, 50, 0.1);
 }
 
 header a {
-    color: #333;
+    color: #efefef;
 }
+#top-banner {
+    color: #fff;
+    background-color: lightgray;
+    background-image: url("images/topbanner.jpg");
+}
+
+#top-banner-container {
+    padding: 3% 30% 7% 30%;
+}
+
 
 .nav-container {
     width: 70%;
@@ -27,6 +37,11 @@ header a {
 #logo {
     float: left;
     padding: 0;
+    background-color: rgb(100, 100, 100);
+}
+
+#logo li {
+    padding: 0;
 }
 
 #logo-image {
@@ -34,8 +49,14 @@ header a {
     height: 51px;
 }
 
+.nav-container {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 1em;
+}
+
 nav {
     overflow: auto;
+    border-radius: 1em;
 }
 
 nav li {
@@ -46,7 +67,7 @@ nav li {
 nav ul {
     margin: 0;
     float: right;
-    padding-top: 1.9%;
+    padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 3%;
 }
@@ -56,14 +77,16 @@ nav ul {
     width: 70%;
     margin: auto;
 }
-.sections {
+
+#sections {
     margin-top: 2%;
     margin-bottom: 2%;
+    padding: 6% 0 6% 0;
     overflow: auto;
     text-align: center;
 }
 
-.sections img {
+#sections img {
     border-radius: 10em;
 }
 
@@ -93,12 +116,27 @@ nav ul {
     padding: 1px;
 }
 
+#bottom-banner {
+    background-color: rgba(0, 50, 20, 0.5);
+    color: #eee;
+    padding: 2% 0 3% 0;
+}
+
 hr {
     width: 90%;
     color: rgba(0, 0, 0, 0.2);
 }
 
+#contact-us {
+    padding: 2% 30% 3% 30%;
+    text-align: center;
+}
+
 /* FOOTER */
+footer {
+    padding: 1% 0 5% 0;
+}
+
 .footer-container {
     width: 80%;
     margin: auto;
