@@ -1,4 +1,4 @@
-var today = new Date();
+/*var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
@@ -10,4 +10,12 @@ if (hourNow > 18) {
     greeting = 'Good morning!';
 }
 
-document.write('<h3>' + greeting '</h3>');
+document.write('<h3>' + greeting '</h3>');*/
+
+$(document).ready(function(){
+    $(".read-more").click(function(){
+        $("#section-left-div").animate({
+            height:'toggle'
+        });
+    });
+});
