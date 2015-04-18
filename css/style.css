@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: #fff;
+    background-color: #cfd8dc;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -12,8 +12,7 @@ a {
 
 /* HEADER */
 header {
-    background-image: url("../images/dts_slowdown_scaled.jpg");
-    background-position: top;
+    background-color: #607d8b;
 }
 
 header a {
@@ -30,7 +29,7 @@ header a {
 }
 
 .nav-container {
-    background-color: rgba(30,30,30,1);
+    background-color: #455a64;
     box-shadow: 0px 1px 10px #111;
     margin: auto;
     left: 0;
@@ -82,52 +81,59 @@ nav li {
 }
 
 #nav-links a:hover {
-    color: red;
+    color: #ff5252;
 }
 
 /* MAIN */
+#main-section {
+}
+
 .container {
     width: 70%;
     margin: auto;
 }
 
-#sections {
-    margin-top: 2em;
-    margin-bottom: 20em;
+#services-sections {
     padding: 6% 0 6% 0;
-    overflow: auto;
     text-align: center;
 }
 
-#sections img {
-    border-radius: 10em;
+#services-sections img {
+    border: 1px solid black;
 }
 
-.section-left {
-    width: 33%;
+#services-section-left {
+    width: 32%;
     padding-top: 1%;
     margin: auto;
     float: left;
 }
 
-.section-center {
-    width: 33%;
+#services-section-center {
+    width: 32%;
     padding-top: 1%;
-    margin: auto;
     display: inline-block;
+    background-color: #eee;
 }
 
-.section-right {
-    width: 33%;
+#services-section-right {
+    width: 32%;
     padding-top: 1%;
     margin: auto;
     float: right;
+    background-color: #eee;
+    box-shadow: 0 0 10px #111;
+}
+
+.view-details {
+    background-color: #ff5252;
+    padding: 2% 0 2% 0;
+    margin-bottom: 0;
 }
 
 #bottom-banner {
-    background-image: url("../images/people-window-b&w.jpg");
-    background-position: center;
-    color: #666;
+    background-color: #607d8b;
+    color: #fff;
     padding: 2% 0 3% 0;
 }
 
@@ -174,7 +180,7 @@ hr {
 }
 
 #contact-us .container {
-    border: 1px solid grey;
+    background-color: #eee;
     padding: 1%;
 }
 
@@ -182,7 +188,7 @@ hr {
 footer {
     padding: 1% 0 5% 0;
     color: #ccc;
-    background: linear-gradient(rgb(80,80,80),rgb(30,30,30));
+    background-color: #455a64;
 }
 
 .footer-container {
