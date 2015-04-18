@@ -124,11 +124,6 @@ nav li {
     float: right;
 }
 
-.read-more {
-    float: right;
-    padding: 1px;
-}
-
 #bottom-banner {
     background-image: url("../images/people-window-b&w.jpg");
     background-position: center;

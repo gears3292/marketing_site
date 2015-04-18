@@ -13,8 +13,18 @@ if (hourNow > 18) {
 document.write('<h3>' + greeting '</h3>');*/
 
 $(document).ready(function(){
-    $(".read-more").click(function(){
+    $("#details-left").click(function(){
         $("#section-left-div").animate({
+            height:'toggle'
+        });
+    });
+    $("#details-center").click(function(){
+        $("#section-center-div").animate({
+            height:'toggle'
+        });
+    });
+    $("#details-right").click(function(){
+        $("#section-right-div").animate({
             height:'toggle'
         });
     });
