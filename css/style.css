@@ -96,6 +96,7 @@ nav li {
 #services-sections {
     padding: 6% 0 6% 0;
     text-align: center;
+    overflow: auto;
 }
 
 #services-sections img {
