@@ -30,7 +30,7 @@ header a {
 
 .nav-container {
     background-color: #455a64;
-    box-shadow: 0px 1px 10px #111;
+    box-shadow: 0px 1px 10px #333;
     margin: auto;
     left: 0;
     right: 0;
@@ -86,6 +86,8 @@ nav li {
 
 /* MAIN */
 #main-section {
+    min-height: 40em;
+    background-color: #607d8b;
 }
 
 .container {
@@ -96,7 +98,6 @@ nav li {
 #services-sections {
     padding: 6% 0 6% 0;
     text-align: center;
-    overflow: auto;
 }
 
 #services-sections img {
@@ -107,6 +108,7 @@ nav li {
     width: 32%;
     padding-top: 1%;
     margin: auto;
+    background-color: #eee;
     float: left;
 }
 
@@ -123,7 +125,6 @@ nav li {
     margin: auto;
     float: right;
     background-color: #eee;
-    box-shadow: 0 0 10px #111;
 }
 
 .view-details {
