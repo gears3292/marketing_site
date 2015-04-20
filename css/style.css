@@ -61,8 +61,7 @@ nav li {
     float: left;
     font-weight: bold;
     font-size: 1.1em ;
-    border-radius: 1em;
-    margin: 5px;
+    background-color: #ff5252;
     /* padding: 0; */
 }
 
@@ -77,7 +76,7 @@ nav li {
 
 #nav-links {
     float: right;
-    padding-top: 0.9em;
+    padding-top: 1em;
 }
 
 #nav-links a:hover {
@@ -101,7 +100,6 @@ nav li {
 }
 
 #services-sections img {
-    border: 1px solid black;
 }
 
 #services-section-left {
@@ -129,6 +127,7 @@ nav li {
 
 .view-details {
     background-color: #ff5252;
+    color: #fff;
     padding: 2% 0 2% 0;
     margin-bottom: 0;
 }
